@@ -42,7 +42,7 @@ highlight_theme: night
 
 #### index post is expanding or not 
 index:
-  expand: false           ## default is unexpanding,so you can only see the short description of each post.
+  expand: true           ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More  
 
 close_aside: false  #close sidebar in post page if true
@@ -54,8 +54,8 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  intro_line1:  ##"Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
+  intro_line2:  ##"This is my blog,believe it or not."  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -72,15 +72,14 @@ author:
 
 #### Toc
 toc:
-  article: false   ## show contents in article.
-  aside: true     ## show contents in aside.
+  article: true   ## show contents in article.
+  aside: false     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
 #### Links
 links:
-  码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
-  Jark's Blog: http://wuchong.me
+##  Jark's Blog: http://wuchong.me
 
 
 
@@ -130,5 +129,5 @@ baidu_search:     ## http://zn.baidu.com/
   site: ## your can change to your site instead of the default site
   
 tinysou_search:     ## http://tinysou.com/
-  enable: false
-  id:  ## e.g. "4ac092ad8d749fdc6293" for your tiny search id
+  enable: true
+  id:  "77e5fd75341fa457df97"
